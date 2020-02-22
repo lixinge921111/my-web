@@ -1,0 +1,51 @@
+.body {
+  background-image: url("../assets/earth.jpg");
+  background-size: cover;
+  background-position: 50%;
+  background-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.link {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  color: lightgray;
+  font-size: x-large;
+}
+
+.title {
+  text-align: center;
+  padding: 15;
+  font-size: 3.2em;
+  font-weight: 300;
+  color: lightgray;
+}
+
+.navigation {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media screen and (max-width: 900px) {
+  .link {
+    width: 70%;
+  }
+}

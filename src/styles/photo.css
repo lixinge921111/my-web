@@ -1,0 +1,22 @@
+.photo {
+  background-size: cover;
+  background-position: 50%;
+  background-blend-mode: multiply;
+  background-color: rgba(134, 133, 138, 0.2);
+  position: fixed;
+  top: 5;
+  left: 0;
+  width: 100vw;
+  height: 92vh;
+  overflow-y: scroll;
+}
+
+.font {
+  font-size: x-large;
+}
+
+@media screen and (max-width: 650px) {
+  .font {
+    font-size: large;
+  }
+}

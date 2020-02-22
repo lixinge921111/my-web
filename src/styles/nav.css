@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Neucha&display=swap");
+
+.home {
+  text-align: center;
+  background-image: url("../assets/earth.jpg");
+  background-size: cover;
+  background-position: 50%;
+  background-blend-mode: multiply;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  color: black;
+  font-family: "Neucha", cursive;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s ease;
+}
+
+.nav-link {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  font-size: large;
+}
+
+@media screen and (max-width: 600px) {
+  .nav-link {
+    width: 60%;
+  }
+}

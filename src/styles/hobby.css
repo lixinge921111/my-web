@@ -1,0 +1,18 @@
+.game {
+  background-color: rgba(134, 133, 138, 0.2);
+  background-size: cover;
+  background-position: 50%;
+  background-blend-mode: multiply;
+  position: fixed;
+  top: 5;
+  left: 0;
+  width: 100vw;
+  height: 92vh;
+  overflow-y: scroll;
+}
+
+@media screen and (max-width: 568px) {
+  .game {
+    height: 80vh;
+  }
+}

@@ -1,0 +1,9 @@
+.social-item {
+  margin-right: 15px;
+}
+
+.social-links {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
